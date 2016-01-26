@@ -14,7 +14,7 @@ $(document).ready( function () {$.getJSON('/binich', function (obj){
 		$('h1').text("Ja, ich bin eine Bananae")
 		$('body').addClass('bananae');
 	}
-	else if (obk.binich == 'nein')
+	else if (obj.binich == 'nein')
 	{
 		$('h1').text("Ich bin ein Mensch");
 		$('body').addClass('mensch')

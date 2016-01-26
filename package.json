@@ -7,7 +7,9 @@
   "author": "Chris Roberts",
   "license": "BSD",
   "dependencies": {
+    "debug": "^2.2.0",
     "express": "~4.13.4",
-    "jquery": "~2.2.0"
+    "jquery": "~2.2.0",
+    "twitter": "^1.2.5"
   }
 }

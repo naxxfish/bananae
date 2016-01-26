@@ -1,8 +1,12 @@
 html, body {
-	height:100%;
+	height:95%;
 	font-family:Tahoma;
 	font-style:oblique;
 	text-align:center;
+}
+
+body {
+	background-color:#000;
 }
 
 h1 {
@@ -15,7 +19,7 @@ body.bananae {
 }
 
 body.mensch {
-	background-color:#f0f;
+	background-color:rgb(153, 51, 153);
 	color:#fff;
 }
 
@@ -25,8 +29,7 @@ body.urf {
 }
 
 div {
-  height: 90%;
-  width: 100%;
+  height: 75%;
   text-align: center;
   padding: 0 20px;
   margin: 20px;
