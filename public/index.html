@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<script src="/jquery/jquery.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/style.css" />
+<script>
+$(document).ready( function () {$.getJSON('/binich', function (obj){
+	if (obj.binich == 'ja')
+	{
+		$('h1').text("Ja, ich bin eine Bananae")
+		$('body').addClass('bananae');
+	}
+	else if (obk.binich == 'nein')
+	{
+		$('h1').text("Ich bin ein Mensch");
+		$('body').addClass('mensch')
+	} else {
+		$('h1').text("Ich weiss nichts?");
+		$('body').addClass('urf')
+	}
+})
+})
+</script>
+<title>Bin Ich eine Bananae?</title>
+
+</head>
+
+<body>
+<div>
+	<h1 id="binich">????</h1>
+</div>
+<span>Es ist wichtig!</span>
+</body>
+
+</html>
