@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "description": "Zu wissen, ob ich bin eine Banane",
   "main": "index.js",
-  "repository": naxxfish/bananae",
+  "repository": "naxxfish/bananae",
   "author": "Chris Roberts",
-  "license": "BSD"
+  "license": "BSD",
+  "dependencies": {
+    "express": "~4.13.4"
+  }
 }
