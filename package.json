@@ -1,0 +1,9 @@
+{
+  "name": "bananae",
+  "version": "0.0.0",
+  "description": "Zu wissen, ob ich bin eine Banane",
+  "main": "index.js",
+  "repository": naxxfish/bananae",
+  "author": "Chris Roberts",
+  "license": "BSD"
+}
