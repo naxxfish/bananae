@@ -6,6 +6,9 @@
   "repository": "naxxfish/bananae",
   "author": "Chris Roberts",
   "license": "BSD",
+  "scripts": {
+     "start": "node index.js"
+  },
   "dependencies": {
     "debug": "^2.2.0",
     "express": "~4.13.4",
