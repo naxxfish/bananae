@@ -25,7 +25,7 @@ app.get("/binich", function (req, res) {
 		tweetcache.last_updated = Date.now();
 		  if (!error) {
 			latest_tweet = tweets[0].text;
-			if (latest_tweet.toLowerCase().indexOf('ich bin eine bananae') !=-1)
+			if (latest_tweet.toLowerCase().indexOf('ich bin eine banane') !=-1)
 			{
 				tweetcache.binich = 'ja'
 			} else {
