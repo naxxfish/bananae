@@ -45,8 +45,8 @@ app.get('/binich', function (req, res) {
   }
 })
 
-app.listen(3001, function () {
-  console.log('Bananae listening on port 3001')
+app.listen(80, function () {
+  console.log('Bananae listening on port 80')
   console.log('who: ' + config.wo)
   console.log('Telling people if I am a banana')
 })

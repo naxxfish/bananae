@@ -1,4 +1,6 @@
-FROM node:4-onbuild
+FROM node:carbon
+WORKDIR /app
+ADD . /app
 RUN npm install && npm run test
-RUN npm start
+CMD [ "npm", "start" ]
 EXPOSE 80
