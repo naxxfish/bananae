@@ -30,14 +30,18 @@ app.get('/binich', function (req, res) {
         } else {
           tweetcache.binich = 'nein'
         }
-        res.end(JSON.stringify({ 'binich': tweetcache.binich }))
+        var responseObject = { 'binich': tweetcache.binich }
+        debug({ response: responseObject, cached: false })
+        res.end(JSON.stringify(responseObject))
       } else {
         debug(error)
         res.end(JSON.stringify({ 'binich': tweetcache.binich, 'error': error }))
       };
     })
   } else {
-    res.end(JSON.stringify({ 'binich': tweetcache.binich }))
+    var responseObject = { 'binich': tweetcache.binich }
+    debug({ response: responseObject, cached: true })
+    res.end(JSON.stringify(responseObject))
   }
 })
 
