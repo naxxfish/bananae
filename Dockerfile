@@ -1,3 +1,4 @@
 FROM node:4-onbuild
-RUN npm run test
-EXPOSE 3001
+RUN npm install && npm run test
+RUN npm start
+EXPOSE 80
